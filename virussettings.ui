@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>virusSettings</class>
+ <widget class="QDialog" name="virusSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Virus settings</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="9" column="1">
+    <widget class="QLineEdit" name="growthEdit"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="minSpreadEdit"/>
+   </item>
+   <item row="14" column="1">
+    <widget class="QPushButton" name="okButton">
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="recoveryLabel">
+     <property name="text">
+      <string>Recovery days:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="infectionEdit"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="deathEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="minSpreadLabel">
+     <property name="text">
+      <string>Min spread chance:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QLineEdit" name="quarantineEdit"/>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLineEdit" name="effectivenessEdit"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="maxSpreadEdit"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="deathLabel">
+     <property name="text">
+      <string>Death chance:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="delayEdit"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="recoveryMaxEdit"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="delayLabel">
+     <property name="text">
+      <string>Vaccination delay:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="maxSpreadLabel">
+     <property name="text">
+      <string>Max spread chance:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="1">
+    <widget class="QPushButton" name="cancelButton">
+     <property name="text">
+      <string>cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="effectivenessLabel">
+     <property name="text">
+      <string>Vaccination effectiveness:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="recoveryEdit"/>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="growthLabel">
+     <property name="text">
+      <string>Vaccination growth:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="recoveryMaxLabel">
+     <property name="text">
+      <string>Max recovery chance:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="quarantineLabel">
+     <property name="text">
+      <string>Quarantine time:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="infectionLabel">
+     <property name="text">
+      <string>Infection chance:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="degreeLabel">
+     <property name="text">
+      <string>Spread steps:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="degreeEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

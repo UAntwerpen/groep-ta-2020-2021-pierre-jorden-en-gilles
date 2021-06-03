@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>simulationSettings</class>
+ <widget class="QWidget" name="simulationSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>simulationSettings</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="4" column="1">
+    <widget class="QPushButton" name="okButton">
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="cancelButton">
+     <property name="text">
+      <string>cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="widthEdit"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="depthEdit"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="speedEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="speedLabel">
+     <property name="text">
+      <string>Speed:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="depthLabel">
+     <property name="text">
+      <string>Depth:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="widthLabel">
+     <property name="text">
+      <string>Width:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="maxPeopleEdit"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="maxPeopleLabel">
+     <property name="text">
+      <string>Max people: </string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
